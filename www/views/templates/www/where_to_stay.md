@@ -32,7 +32,7 @@ Here is a list of a few places you might like to check out.
 
 > 14555 Vintage Preserve Pkwy  
 > Houston, TX 77070  
-> *Web Site:* [www.marriott.com](https://www.marriott.com/)  
+> *Web Site:* [www.marriott.com](https://www.marriott.com/) *(you'll need to search location)*  
 > *Phone:* [(281) 379-7300](tel:+12813797300)
 
 {{ directions_snippet(29.9927,-95.5689) }} 
@@ -43,7 +43,7 @@ Here is a list of a few places you might like to check out.
 
 > 20303 Chasewood Park Dr  
 > Houston, TX 77070  
-> *Web Site:* [www.marriott.com](https://www.marriott.com/)  
+> *Web Site:* [www.marriott.com](https://www.marriott.com/) *(you'll need to search location)*  
 > *Phone:* [(832) 953-2220](tel:+18329532220)
 
 {{ directions_snippet(29.9866,-95.5724) }} 
