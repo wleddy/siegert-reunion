@@ -28,7 +28,7 @@ Here is a list of a few places you might like to check out.
 
 ### Element Houston Vintage
 
-5 miles from reunion.
+5 miles from the reunion.
 
 > 14555 Vintage Preserve Pkwy  
 > Houston, TX 77070  
@@ -39,7 +39,7 @@ Here is a list of a few places you might like to check out.
 
 ### SpringHill Suites by Marriott
 
-6 miles from reunion. 
+6 miles from the reunion. 
 
 > 20303 Chasewood Park Dr  
 > Houston, TX 77070  
@@ -50,7 +50,7 @@ Here is a list of a few places you might like to check out.
 
 ### Hyatt Place Houston Vintage
 
-6 miles from reunion. 
+6 miles from the reunion. 
 
 > 20330 Tomball Pkwy  
 > Houston, TX 77070  
