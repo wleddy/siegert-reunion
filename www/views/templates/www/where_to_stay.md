@@ -53,7 +53,7 @@ Here is a list of a few places you might like to check out.
 6 miles from reunion. 
 
 > 20330 Tomball Pkwy  
-> Houston, TX 77070
+> Houston, TX 77070  
 > *Web Site:* [hyatt.com](http://houstonvintagepark.place.hyatt.com)  
 > *Phone:* [(832) 930-8090](tel:+18329308090)
 
