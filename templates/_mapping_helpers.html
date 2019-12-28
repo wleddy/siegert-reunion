@@ -1,0 +1,8 @@
+
+{% macro directions_snippet(lat,lng) %}
+{% if lat and lng %}
+>*Directions*:  
+> [Google Maps](https://www.google.com/maps/dir/?api=1&destination={{ lat}},{{ lng }})  
+> [Apple Maps](http://maps.apple.com/?daddr={{lat}},{{lng }})
+{% endif %}
+{% endmacro %}
