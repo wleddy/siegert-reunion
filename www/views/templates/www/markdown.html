@@ -1,7 +1,17 @@
 {% extends "layout.html" %}
 {% block title %}{{g.title}}{% endblock %}
+
+{% block head %}
+{{ super() }}
+<style type="text/css" media="screen">
+    #rendered_html h3 ~ p {
+        margin:0 0 .2em 2%;
+    }
+</style>
+{% endblock head %}
+
 {% block body %}
-<div class="w3-panel w3-card-2">
+<div id="rendered_html" class="w3-panel w3-card-2">
 {% if rendered_html%}
 {{ rendered_html | safe()}}
 {% else %}
