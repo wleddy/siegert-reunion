@@ -45,14 +45,16 @@
                         {{ radio_field("yes","attending",id="is_attending",label="We'll be there", class="attending", extras=yes_extras)}} &nbsp;&nbsp;
                         {{ radio_field("no","attending",id="not_attending",label="Sorry, can't make it", class="attending", extras=no_extras)}}
                     </p>
-                    <div id="rsvp_fields">
+                    <div class="rsvp_fields">
                         <p>{{ input_field(context['how_many'],'how_many',label="how may are coming?")}}</p>
                         <p>{{ label_only("Who is coming:")}}
                             <textarea name="coming_with" rows="8" style="width:100%;">{{ context['coming_with'] }}</textarea> 
                         </p>
+                    </div>
                         <p>{{ label_only("Questions or Comments?")}}
                             <textarea name="comment" rows="8" style="width:100%;">{{ context['comment'] }}</textarea> 
                         </p>
+                    <div class="rsvp_fields">
                         <h2>Our Survey</h2>
                         <p>Will you please answer a few questions for us so we know what you like?</p>
                         <h3>Soft Drinks:</h3>
@@ -111,9 +113,9 @@
     {% endif %}
     
     <script>
-        $('.attending').click(function(){$('#rsvp_fields').toggle()});
+        $('.attending').click(function(){$('.rsvp_fields').toggle()});
         if($('#not_attending').prop('checked') == true){ 
-            $('#rsvp_fields').hide();
+            $('.rsvp_fields').hide();
         }
     </script>
 {% endblock body %}
