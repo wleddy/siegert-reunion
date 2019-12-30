@@ -1,0 +1,3 @@
+Please let us know who is coming...
+
+>> or you can call the house at ![a phone number]({{ url_for('static', filename='images/tpn.png')}})

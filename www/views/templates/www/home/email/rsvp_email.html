@@ -1,0 +1,39 @@
+<h2>RSVP from {{ site_config.SITE_NAME}}</h2>
+<p>Submitted on {{ context['date'] }}</p>
+<p>Name: {{context['name']}}</p>
+<p>email: {{context['email'] | default("No response")}}</p>
+{% if context['attending'] == 'no' %}
+	<h2>{{ context['name'] }} will not be coming</h2>
+		{% if context['comment'] %}
+		<p>Comment:</p>
+		<p>{{ context['comment']}}</p>
+		{% endif %}
+{% else %}
+<p>How many: {{ context['how_many'] | default("No response")}} </p>
+<p>Who is coming with: {{ context['coming_with']}}</p>
+{% if context['comment'] %}
+<p>Comment:</p>
+<p>{{ context['comment']}}</p>
+{% endif %}
+<h2>Poll Questions:</h2>
+<h3>Soft Drinks:</h3>
+<ul>
+	<li><input type="checkbox" {% if context['coke'] %}checked="checked"{% else %}{% endif %} /> Coke</li>
+	<li><input type="checkbox" {% if context['pepsi'] %}checked="checked"{% else %}{% endif %} /> Pepsi</li>
+</ul>
+<h3>Adult Beverage:</h3>
+<p> {{ context['adult_bev'] | default("No pref. entered") }} </p>
+<h3>Condiments:</h3>
+<ul>
+	<li><input type="checkbox" {% if context['ketchup'] %}checked="checked"{% else %}{% endif %} /> Ketchup</li>
+	<li><input type="checkbox" {% if context['mustard'] %}checked="checked"{% else %}{% endif %} /> Mustard</li>
+	<li><input type="checkbox" {% if context['salsa'] %}checked="checked"{% else %}{% endif %} /> Salsa</li>
+	<li><input type="checkbox" {% if context['guac'] %}checked="checked"{% else %}{% endif %} /> Guac</li>
+</ul>
+<h3>Desert:</h3>
+<ul>
+	<li><input type="checkbox" {% if context['chocolate'] %}checked="checked"{% else %}{% endif %} /> Chocolate</li>
+	<li><input type="checkbox" {% if context['vanilla'] %}checked="checked"{% else %}{% endif %} /> Vanilla</li>
+</ul>
+{% endif %}
+

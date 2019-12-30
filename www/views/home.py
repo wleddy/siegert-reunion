@@ -129,6 +129,86 @@ def contact():
     flash(mes)
     return render_template('500.html'), 500
     
+    
+@mod.route('/rsvp', methods=['POST', 'GET',])
+@mod.route('/rsvp/', methods=['POST', 'GET',])
+def rsvp():
+    setExits()
+    g.title = 'RSVP'
+    g.contactURL = url_for('.rsvp')
+    from shotglass2.shotglass import get_site_config
+    from shotglass2.takeabeltof.mailer import send_message
+    rendered_html = render_markdown_for('rsvp.md',mod)
+
+    show_form = True
+    context = {}
+    success = True
+    passed_quiz = False
+    site_config = get_site_config()
+    mes = "No errors yet..."
+    #import pdb;pdb.set_trace()
+    if request.form:
+        #import pdb;pdb.set_trace()
+        quiz_answer = request.form.get('quiz_answer',"A")
+        if quiz_answer.upper() == "C":
+            passed_quiz = True
+        else:
+            flash("You did not answer the quiz correctly.")
+        if request.form['name'] and passed_quiz:
+            context.update({'date':datetime_as_string()})
+            for key, value in request.form.items():
+                context.update({key:value})
+
+            # get best contact email
+            to = []
+            # See if the contact info is in Prefs
+            try:
+                from shotglass2.users.views.pref import get_contact_email
+                contact_to = get_contact_email()
+                if contact_to:
+                    to.append(contact_to)
+            except Exception as e:
+                printException("Need to update home.contact to find contacts in prefs.","error",e)
+
+            try:
+                if not to:
+                    to = [(site_config['CONTACT_NAME'],site_config['CONTACT_EMAIL_ADDR'],),]
+                if site_config['CC_ADMIN_ON_CONTACT']:
+                    to.append((site_config['MAIL_DEFAULT_SENDER'],site_config['MAIL_DEFAULT_ADDR']))
+
+            except KeyError as e:
+                mes = "Could not get email addresses."
+                mes = printException(mes,"error",e)
+                if to:
+                    #we have at least a to address, so continue
+                    pass
+                else:
+                    success = False
+
+            if success:
+                # Ok so far... Try to send
+                success, mes = send_message(
+                                    to,
+                                    subject = "RSVP from {}".format(site_config['SITE_NAME']),
+                                    html_template = "home/email/rsvp_email.html",
+                                    context = context,
+                                    reply_to = request.form['email'],
+                                )
+
+            show_form = False
+        else:
+            context = request.form
+            flash('You left some stuff out.')
+
+    if success:
+        return render_template('rsvp.html',rendered_html=rendered_html, show_form=show_form, context=context,passed_quiz=passed_quiz)
+
+    handle_request_error(mes,request,500)
+    flash(mes)
+    return render_template('500.html'), 500
+    
+    
+    
 @mod.route('/docs', methods=['GET',])
 @mod.route('/docs/', methods=['GET',])
 @mod.route('/docs/<path:filename>', methods=['GET',])
@@ -210,11 +290,4 @@ def menu():
     
     return render_page('menu.md')
     
-@mod.route('/poll', methods=['GET',])
-@mod.route('/poll/', methods=['GET',])
-def poll():
-    setExits()
-    g.title = 'Questions for You...'
-    
-    return render_page('poll.md')
 
