@@ -12,10 +12,10 @@
 body {
     background-image: url('/static/images/background_image.jpeg');
     background-repeat:no-repeat;
-    background-position: 0 120px;
+    background-position: 0 60px;
     background-attachment: fixed;
-    background-size: cover;
-    background-color: #ddd;
+    background-size: 120%;
+    background-color: rgba(190,190,190,1);
 }
 
 .w3-panel, fieldset {
