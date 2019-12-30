@@ -15,27 +15,37 @@ Did I mention shopping?
 
 {{ directions_snippet(30.0792,-95.4203) }} 
 
-### Typhoon Texas Waterpark
-
-I guess the name says it all...
-
-About 40 miles from the reunion.
-
-> 555 Katy Fort Bend Rd  
-> Katy, TX 77494  
-> *Web Site:* [www.typhoontexas.com](https://www.typhoontexas.com/houston)  
-> *Phone:* [(832) 426-7071](tel:+18324267071)
-
-{{ directions_snippet(29.7790,-95.8050) }} 
-
 ### Hurricane Harbor Waterpark
 
-See above...
+I guess the name says it all...
 
 6 miles from the reunion.
 
 > 21300 Interstate 45 N  
 > Spring, TX 77373  
+> *Web Site:* [www.sixflags.com](https://www.sixflags.com/splashtown)  
+> *Phone:* [(281) 355-3300](tel:+12813553300)
+
+{{ directions_snippet(30.0700,-95.4327) }} 
+
+
+### Houston Museum District
+
+Located in and around downtown, there are nearly 20 museums featuring a wide variety
+of arts and cultural exhibits.
+
+About 30 miles from the reunion.
+
+> *Web Site:* [visithoustontexas.com](https://www.visithoustontexas.com/about-houston/neighborhoods/museum-district/)
+
+### Typhoon Texas Waterpark
+
+See above...
+
+About 40 miles from the reunion.
+
+> 555 Katy Fort Bend Rd  
+> Katy, TX 77494  
 > *Web Site:* [www.typhoontexas.com](https://www.typhoontexas.com/houston)  
 > *Phone:* [(832) 426-7071](tel:+18324267071)
 
@@ -56,7 +66,6 @@ on public display in the world.
 
 {{ directions_snippet(29.5513,-95.0977) }} 
 
-
 ### Kemah Boardwalk
 
 Popular boardwalk on Galveston Bay with rides, restaurants, and shopping.
@@ -69,13 +78,3 @@ Popular boardwalk on Galveston Bay with rides, restaurants, and shopping.
 > *Phone:* [(877) 285-3624](tel:+18772853624)
 
 {{ directions_snippet(29.5472,-95.0180) }} 
-
-### Houston Museum District
-
-Located in and around downtown, there are nearly 20 museums featuring a wide variety
-of arts and cultural exhibits.
-
-About 30 miles from the reunion.
-
-> *Web Site:* [visithoustontexas.com](https://www.visithoustontexas.com/about-houston/neighborhoods/museum-district/)
-
