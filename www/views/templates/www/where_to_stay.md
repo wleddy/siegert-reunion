@@ -1,8 +1,6 @@
 {% from '_mapping_helpers.html' import directions_snippet %}
 
 
-## Hotels:
-
 Here is a list of a few places you might like to check out.
 
 ### Super 8 (new)

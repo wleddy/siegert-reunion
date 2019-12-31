@@ -1,6 +1,5 @@
 {% from '_mapping_helpers.html' import directions_snippet %}
 
-## Attractions & Things To Do: 
 
 ### Old Town Spring
 

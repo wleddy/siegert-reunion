@@ -1,8 +1,5 @@
 {% from '_mapping_helpers.html' import directions_snippet %}
 
-
-## The Menu:
-
 ###Friday July 31st
 
 __El Imperial Restaurant__
