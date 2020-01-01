@@ -15,7 +15,7 @@ Headquarters for the event will be at:
 
 >	Spring Creek Oaks Clubhouse II  
 >	6002 Bur Oak Drive  
->	Houston, TX 77379  
+>	Spring, TX 77379  
 >	*web site:* [www.springcreekoaks.org](http://www.springcreekoaks.org/)
 
 {{ directions_snippet(30.0377,-95.5064) }}
@@ -23,7 +23,7 @@ Headquarters for the event will be at:
 Carol & John's place is at:
 
 >	6035 Spring Creek Ln.  
->	Houston, TX 77379
+>	Spring, TX 77379
 
 {{ directions_snippet(30.0362,-95.5075) }}
 
