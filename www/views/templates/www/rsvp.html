@@ -46,7 +46,7 @@
                         {{ radio_field("no","attending",id="not_attending",label="Sorry, can't make it", class="attending", extras=no_extras)}}
                     </p>
                     <div class="rsvp_fields">
-                        <p>{{ input_field(context['how_many'],'how_many',label="how may are coming?")}}</p>
+                        <p>{{ input_field(context['how_many'],'how_many',label="how many are coming? (Including you)")}}</p>
                         <p>{{ label_only("Who is coming:")}}
                             <textarea name="coming_with" rows="8" style="width:100%;">{{ context['coming_with'] }}</textarea> 
                         </p>

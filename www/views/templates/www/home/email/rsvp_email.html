@@ -1,4 +1,5 @@
 <h2>RSVP from {{ site_config.SITE_NAME}}</h2>
+<fieldset disabled="disabled" >
 <p>Submitted on {{ context['date'] }}</p>
 <p>Name: {{context['name']}}</p>
 <p>email: {{context['email'] | default("No response")}}</p>
@@ -36,4 +37,5 @@
 	<li><input type="checkbox" {% if context['vanilla'] %}checked="checked"{% else %}{% endif %} /> Vanilla</li>
 </ul>
 {% endif %}
+</fieldset>
 
