@@ -1,13 +1,16 @@
 {% from '_mapping_helpers.html' import directions_snippet %}
 
-## Snack 'n things
+## Snack 'n things...
 
-We will be catering some meals as well as snacks and drinks at the clubhouse
-but we plan on venturing out into wilds of Houston a couple of dinners and the
-final breakfast. All meals will be "Dutch".
+We will be catering some lunch things as well as snacks and drinks at the clubhouse.
 
 We are asking that everyone contribute $25 per person to help with the cost of
 catering and rental of the hall. - _Thanks_
+
+## Meals Out...
+We plan on venturing out into wilds of Houston a couple of dinners and the
+final breakfast. All meals will be "Dutch".
+
 
 ###Friday July 31st
 
