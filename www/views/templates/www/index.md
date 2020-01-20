@@ -29,7 +29,7 @@ Carol & John's place is at:
 
 ### RSVP
 
-Please [click here]({{ url_for('www.rsvp') }}) to let us know if you're comming. 
+Please [click here]({{ url_for('www.rsvp') }}) to let us know if you're coming. 
 
 If you have other questions please [click here]({{ url_for("www.contact") }}) or call 
 ![a phone #]({{ url_for('static',filename='images/tpn.png') }})
