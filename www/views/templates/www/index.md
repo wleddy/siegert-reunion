@@ -11,7 +11,11 @@ July 31 thru August 2, 2020
 
 ### Where
 
-Headquarters for the event will be at:
+Headquarters for the event will be at the clubhouse in spring. We have access to the clubhouse for the 
+whole weekend. We'll have drinks and snacks there and plenty of time to swap sories.
+
+We will also have dinner both evenings and the departure breakfast at the clubhouse. See
+the [Menu](menu/) for details.
 
 >	Spring Creek Oaks Clubhouse II  
 >	6002 Bur Oak Drive  
