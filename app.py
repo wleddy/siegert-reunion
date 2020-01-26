@@ -1,4 +1,4 @@
-from flask import Flask, g, session, request, redirect, flash, abort, session
+from flask import Flask, g, session, request, redirect, flash, abort, session, url_for
 from flask_mail import Mail
 from shotglass2 import shotglass
 from shotglass2.takeabeltof.database import Database
@@ -97,6 +97,18 @@ def _before():
     if 'user' in session:
         g.user = session['user']
         
+        
+    #g.menu_items = shotglass.get_menu_items()
+    g.menu_items = [
+        {'title':'Home','url':'/'},
+        {'title':'RSVP','url':url_for('www.rsvp')},
+        {'title':'Where to Stay','url':url_for('www.where_to_stay')},
+        {'title':'Things to Do','url':url_for('www.things_to_do')},
+        {'title':'Shopping','url':url_for('www.shopping')},
+        {'title':'The Menu','url':url_for('www.menu')},
+        {'title':'Churches','url':url_for('www.render_for',filename='churches')},
+        {'title':'Questions','url':url_for('www.contact')},
+        ]
         
     g.admin = Admin(g.db) # This is where user access rules are stored
     shotglass.user_setup() # g.admin now holds access rules Users, Prefs and Roles
