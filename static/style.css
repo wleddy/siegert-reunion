@@ -29,6 +29,8 @@ fieldset {
     background-color: white;
 }
 
+#primary-nav{ position:fixed!important;}
+
 /* change the fixed width of the right menu here*/
 /*
 .menu_space {
