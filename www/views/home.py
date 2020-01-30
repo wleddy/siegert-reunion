@@ -309,38 +309,3 @@ def render_page(markdown_source):
     
     rendered_html = render_markdown_for(markdown_source,mod)
     return render_template('markdown.html',rendered_html=rendered_html)
-
-@mod.route('/where-to-stay', methods=['GET',])
-@mod.route('/where-to-stay/', methods=['GET',])
-def where_to_stay():
-    setExits()
-    g.title = 'Where to Stay'
-    
-    return render_page('where_to_stay.md')
-    
-@mod.route('/things-to-do', methods=['GET',])
-@mod.route('/things-to-do/', methods=['GET',])
-def things_to_do():
-    setExits()
-    g.title = 'Things to Do'
-    
-    return render_page('things_to_do.md')
-    
-@mod.route('/shopping', methods=['GET',])
-@mod.route('/shopping/', methods=['GET',])
-def shopping():
-    setExits()
-    g.title = 'Shopping'
-    
-    return render_page('shopping.md')
-    
-@mod.route('/menu', methods=['GET',])
-@mod.route('/menu/', methods=['GET',])
-def menu():
-    setExits()
-    g.title = 'The Menu'
-    
-    return render_page('menu.md')
-    
-    
-

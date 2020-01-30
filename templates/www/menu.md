@@ -9,10 +9,14 @@ We'll have drinks and snacks at the Clubhouse throughout the weekend.
 Dinners on Friday and Saturday, as well as Breakfast on Sunday will be catered for us
 at the Spring Creek Oaks Clubhouse.
 
-We are asking that everyone contribute $25 per person to help with the cost of
-catering and rental of the hall. - _Thanks_
+We are asking that everyone contribute $25 per adult to help with the cost of
+catering and rental of the hall. 
 
-The plan is as follows:
+__Children under 12 are free__.
+
+ >_Thanks!_
+
+__The plan is as follows:__
 
 ###Friday July 31st
 

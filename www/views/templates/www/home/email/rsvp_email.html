@@ -1,6 +1,6 @@
 <h2>RSVP from {{ site_config.SITE_NAME}}</h2>
 <fieldset disabled="disabled" >
-<p>Submitted on {{ context['date'] }}</p>
+<p>Submitted on {{ context['date'] | short_day_and_date_and_time_string }}</p>
 <p>Name: {{context['name']}}</p>
 <p>email: {{context['email'] | default("No response")}}</p>
 {% if context['attending'] == 'no' %}

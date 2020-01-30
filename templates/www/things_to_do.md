@@ -96,6 +96,13 @@ Experience the thrill of Skydiving without the whole dying in a fiery crash aspe
 Located in and around downtown, there are nearly 20 museums featuring a wide variety
 of arts and cultural exhibits.
 
+> Some of the attractions include:
+
+>> * Houston Zoo
+>> * Houston Children’s Museum
+>> * Buffalo Soldier Museum
+>> * _and many more..._
+
 About 30 miles from the reunion.
 
 > *Web Site:* [visithoustontexas.com](https://www.visithoustontexas.com/about-houston/neighborhoods/museum-district/)
