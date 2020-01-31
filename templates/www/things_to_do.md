@@ -148,19 +148,6 @@ Popular boardwalk on Galveston Bay with rides, restaurants, and shopping.
 
 {{ directions_snippet(29.5472,-95.0180) }} 
 
-### Kemah Boardwalk
-
-Popular boardwalk on Galveston Bay with rides, restaurants, and shopping.
-
-58 miles from the reunion.
-
-> 215 Kipp Ave  
-> Kemah, TX 77565  
-> *Web Site:* [kemahboardwalk.com](http://kemahboardwalk.com)  
-> *Phone:* [(877) 285-3624](tel:+18772853624)
-
-{{ directions_snippet(29.5472,-95.0180) }} 
-
 
 ### Moody Gardens Galveston
 
