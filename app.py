@@ -101,13 +101,13 @@ def _before():
     #g.menu_items = shotglass.get_menu_items()
     g.menu_items = [
         {'title':'Home','url':'/'},
-        {'title':'RSVP','url':url_for('www.rsvp')},
-        {'title':'Where to Stay','url':url_for('www.render_for', filename='where_to_stay')},
-        {'title':'Things to Do','url':url_for('www.render_for', filename='things_to_do')},
-        {'title':'Shopping','url':url_for('www.render_for', filename='shopping')},
-        {'title':'The Menu','url':url_for('www.render_for', filename='menu')},
-        {'title':'Churches','url':url_for('www.render_for',filename='churches')},
-        {'title':'Questions','url':url_for('www.contact')},
+        # {'title':'RSVP','url':url_for('www.rsvp')},
+        # {'title':'Where to Stay','url':url_for('www.render_for', filename='where_to_stay')},
+        # {'title':'Things to Do','url':url_for('www.render_for', filename='things_to_do')},
+        # {'title':'Shopping','url':url_for('www.render_for', filename='shopping')},
+        # {'title':'The Menu','url':url_for('www.render_for', filename='menu')},
+        # {'title':'Churches','url':url_for('www.render_for',filename='churches')},
+        # {'title':'Questions','url':url_for('www.contact')},
         ]
         
     g.admin = Admin(g.db) # This is where user access rules are stored
